@@ -25,10 +25,14 @@ body,html {
 }
 
 .header {
-	font-size: 3em;
-	font-weight: 400;
-	margin: 0;
-	padding: 0;
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .dark .header {
