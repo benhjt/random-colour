@@ -11,7 +11,7 @@ function convertHexToRGB(hexString) {
     newHexStr = hexString.substring(1);
   }
 
-  const hex = parseInt(hexString, 16);
+  const hex = parseInt(newHexStr, 16);
   const r = hex >> 16;
   const g = (hex >> 8) & 0xff;
   const b = hex & 0xff;
