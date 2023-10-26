@@ -1,3 +1,3 @@
 # random-colour
 
-Generates a random colour! Written in ES6.
+Generates a random colour!
